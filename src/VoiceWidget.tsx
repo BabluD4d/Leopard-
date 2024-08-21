@@ -1,9 +1,12 @@
 import React, { useCallback, useState, useRef, useEffect } from "react";
 import { useLeopard } from "@picovoice/leopard-react";
-import { leopardModel } from "./lib/leopardModel";
+// import { leopardModel } from "./lib/leopardModel";
 // import leopardModel from "./lib/leopardModel";
 
-
+const leopardModel = {
+  publicPath: "models/student-leopard-v2.0.0-24-08-20--11-20-02.pv",
+  forceWrite: true,
+};
 export default function VoiceWidget() {
   const accessKeyRef = useRef<string>("");
   const [isBusy, setIsBusy] = useState(false);
