@@ -1,7 +1,13 @@
 import React, { useCallback, useState, useRef, useEffect } from "react";
 import { useLeopard } from "@picovoice/leopard-react";
 import leopardModel from "./lib/leopardModel";
+// import { leopardModel } from "./lib/leopardModel";
+// import leopardModel from "./lib/leopardModel";
+// import modelParams from "./lib/leopardModel";
+// import { leopardModel } from "./lib/leopardModel";
 
+// import leopardModel from "./lib/leopardModel";
+// import leopardModel from "./lib/leopardModel";
 
 export default function VoiceWidget() {
   const accessKeyRef = useRef<string>("");
