@@ -4,6 +4,7 @@
   "private": true,
   "description": "Leopard React demo (made with Create React App)",
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@picovoice/leopard-react": "^2.0.2",
     "@picovoice/leopard-web": "^2.0.1",
     "@picovoice/web-voice-processor": "~4.0.8",
@@ -18,8 +19,8 @@
   "devDependencies": {
     "eslint": "^8.13.0"
   },
-    "scripts": {
-   "start": "react-scripts start",
+  "scripts": {
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
     "lint": "eslint ."
