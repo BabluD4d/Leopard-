@@ -1,0 +1,21 @@
+{
+  "name": "scripts",
+  "version": "1.0.0",
+  "main": "run_demo.js",
+  "scripts": {
+    "start": "node scripts/run_demo.js start",
+    "build": "node scripts/run_demo.js build",
+    "eject": "react-scripts eject",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "cross-spawn": "^7.0.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
